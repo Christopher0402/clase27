@@ -5,11 +5,9 @@ phases:
     runtime-versions:
       python: 3.10
     commands:
-      - echo "Instalando dependencias..."
       - pip install boto3
   build:
     commands:
-      - echo "Ejecutando proyecto..."
       - python main.py
 artifacts:
   files:
